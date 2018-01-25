@@ -1,0 +1,55 @@
+#view-source {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+.section { 
+    /* make section the whole screen long*/
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.whole-width{
+  width: 100%;
+}
+
+.padding-5-around{
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.btn-outline-blue{
+    background-color: white;
+    /*border: 0.1em solid DodgerBlue; 
+    color: DodgerBlue;*/
+    border: 0.1em solid orange; 
+    color: orange;
+}
+
+.navbar-brand
+{
+    position: relative;
+    width: 20em;
+    max-height: 7em; /* height of the navbar */
+}
+
+.dropdown-content {
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 15em; /* Changed this to accomodate content width */
+  max-height: auto;
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+  color: DodgerBlue;
+}
